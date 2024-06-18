@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tux/ros2_ws/src/speed_pub -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/speed_pub
+[0.028s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.149s] -- Found speed_control: 0.0.0 (/home/tux/ros2_ws/install/speed_control/share/speed_control/cmake)
+[0.180s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.185s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.192s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.239s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.327s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.331s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.426s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.464s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.505s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.516s] -- Looking for pthread.h
+[0.582s] -- Looking for pthread.h - found
+[0.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.652s] -- Found Threads: TRUE  
+[0.806s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.875s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.875s] -- Configured cppcheck include dirs: 
+[0.875s] -- Configured cppcheck exclude dirs and/or files: 
+[0.876s] -- Added test 'lint_cmake' to check CMake code style
+[0.877s] -- Added test 'uncrustify' to check C / C++ code style
+[0.877s] -- Configured uncrustify additional arguments: 
+[0.877s] -- Added test 'xmllint' to check XML markup files
+[0.878s] -- Configuring done
+[0.886s] -- Generating done
+[0.887s] -- Build files have been written to: /home/tux/ros2_ws/build/speed_pub
+[0.892s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tux/ros2_ws/src/speed_pub -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/speed_pub
+[0.894s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[0.940s] [ 50%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o[0m
+[4.522s] [100%] [32m[1mLinking CXX executable speed_publisher[0m
+[4.680s] [100%] Built target speed_publisher
+[4.690s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[4.713s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub
+[4.719s] -- Install configuration: ""
+[4.719s] -- Installing: /home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher
+[4.720s] -- Set runtime path of "/home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher" to ""
+[4.720s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/package_run_dependencies/speed_pub
+[4.720s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/parent_prefix_path/speed_pub
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.sh
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.dsv
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.sh
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.dsv
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.bash
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.sh
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.zsh
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.dsv
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.dsv
+[4.721s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/packages/speed_pub
+[4.722s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig.cmake
+[4.722s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig-version.cmake
+[4.722s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.xml
+[4.724s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub

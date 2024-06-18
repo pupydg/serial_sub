@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target serial_test[0m
+[0.122s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_test.dir/src/serial_test.cpp.o[0m
+[0.481s] [01m[K/home/tux/ros2_ws/src/serial_test/src/serial_test.cpp:4:9:[m[K [01;31m[Kfatal error: [m[Kspeed_control/msg/speed_control.hpp: 没有那个文件或目录
+[0.481s]     4 | #include[01;31m[K<speed_control/msg/speed_control.hpp>[m[K
+[0.481s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.482s] compilation terminated.
+[0.485s] gmake[2]: *** [CMakeFiles/serial_test.dir/build.make:76：CMakeFiles/serial_test.dir/src/serial_test.cpp.o] 错误 1
+[0.485s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_test.dir/all] 错误 2
+[0.485s] gmake: *** [Makefile:146：all] 错误 2
+[0.488s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12

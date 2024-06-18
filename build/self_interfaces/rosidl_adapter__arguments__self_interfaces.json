@@ -1,0 +1,6 @@
+{
+  "package_name": "self_interfaces",
+  "non_idl_tuples": [
+    "/home/tux/ros2_ws/src/self_interfaces:msg/SpeedControl.msg"
+  ]
+}

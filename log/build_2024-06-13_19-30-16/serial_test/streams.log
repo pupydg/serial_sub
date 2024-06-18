@@ -1,0 +1,12 @@
+[0.015s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target serial_test[0m
+[0.103s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_test.dir/src/serial_test.cpp.o[0m
+[2.836s] [100%] [32m[1mLinking CXX executable serial_test[0m
+[2.908s] /usr/bin/ld: CMakeFiles/serial_test.dir/src/serial_test.cpp.o: in function `main':
+[2.909s] serial_test.cpp:(.text+0xb2): undefined reference to `serial::Serial::Serial(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, serial::Timeout, serial::bytesize_t, serial::parity_t, serial::stopbits_t, serial::flowcontrol_t)'
+[2.909s] /usr/bin/ld: serial_test.cpp:(.text+0xc7): undefined reference to `serial::Serial::~Serial()'
+[2.915s] collect2: error: ld returned 1 exit status
+[2.917s] gmake[2]: *** [CMakeFiles/serial_test.dir/build.make:151：serial_test] 错误 1
+[2.917s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_test.dir/all] 错误 2
+[2.917s] gmake: *** [Makefile:146：all] 错误 2
+[2.920s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12

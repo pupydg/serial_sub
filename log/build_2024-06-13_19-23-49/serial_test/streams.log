@@ -1,0 +1,50 @@
+[0.017s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tux/ros2_ws/src/serial_test -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/serial_test
+[0.029s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.258s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.273s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.389s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.513s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.545s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.594s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.609s] -- Looking for pthread.h
+[0.691s] -- Looking for pthread.h - found
+[0.691s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.766s] -- Found Threads: TRUE  
+[0.936s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.997s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.997s] -- Configured cppcheck include dirs: 
+[0.997s] -- Configured cppcheck exclude dirs and/or files: 
+[0.998s] -- Added test 'lint_cmake' to check CMake code style
+[0.999s] -- Added test 'uncrustify' to check C / C++ code style
+[0.999s] -- Configured uncrustify additional arguments: 
+[1.000s] -- Added test 'xmllint' to check XML markup files
+[1.002s] -- Configuring done
+[1.011s] -- Generating done
+[1.013s] -- Build files have been written to: /home/tux/ros2_ws/build/serial_test
+[1.020s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tux/ros2_ws/src/serial_test -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/serial_test
+[1.022s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[1.066s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_test.dir/src/serial_test.cpp.o[0m
+[3.176s] [01m[K/home/tux/ros2_ws/src/serial_test/src/serial_test.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[3.176s] [01m[K/home/tux/ros2_ws/src/serial_test/src/serial_test.cpp:3:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.176s]     3 | int main([01;35m[Kint argc[m[K, char const *argv[])
+[3.176s]       |          [01;35m[K~~~~^~~~[m[K
+[3.176s] [01m[K/home/tux/ros2_ws/src/serial_test/src/serial_test.cpp:3:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.176s]     3 | int main(int argc, [01;35m[Kchar const *argv[][m[K)
+[3.176s]       |                    [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[3.571s] [100%] [32m[1mLinking CXX executable serial_test[0m
+[3.661s] /usr/bin/ld: CMakeFiles/serial_test.dir/src/serial_test.cpp.o: in function `main':
+[3.661s] serial_test.cpp:(.text+0xb6): undefined reference to `serial::Serial::Serial(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, serial::Timeout, serial::bytesize_t, serial::parity_t, serial::stopbits_t, serial::flowcontrol_t)'
+[3.661s] /usr/bin/ld: serial_test.cpp:(.text+0xde): undefined reference to `serial::Serial::open()'
+[3.661s] /usr/bin/ld: serial_test.cpp:(.text+0xea): undefined reference to `serial::Serial::~Serial()'
+[3.662s] /usr/bin/ld: serial_test.cpp:(.text+0x146): undefined reference to `serial::Serial::~Serial()'
+[3.665s] collect2: error: ld returned 1 exit status
+[3.667s] gmake[2]: *** [CMakeFiles/serial_test.dir/build.make:151：serial_test] 错误 1
+[3.667s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_test.dir/all] 错误 2
+[3.667s] gmake: *** [Makefile:146：all] 错误 2
+[3.669s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12

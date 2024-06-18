@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target speed_publisher[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o[0m
+[4.035s] [100%] [32m[1mLinking CXX executable speed_publisher[0m
+[4.197s] [100%] Built target speed_publisher
+[4.208s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[4.230s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub
+[4.239s] -- Install configuration: ""
+[4.239s] -- Installing: /home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher
+[4.241s] -- Set runtime path of "/home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher" to ""
+[4.241s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/package_run_dependencies/speed_pub
+[4.241s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/parent_prefix_path/speed_pub
+[4.241s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.sh
+[4.241s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.dsv
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.sh
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.dsv
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.bash
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.sh
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.zsh
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.dsv
+[4.242s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.dsv
+[4.242s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/packages/speed_pub
+[4.243s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig.cmake
+[4.243s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig-version.cmake
+[4.243s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.xml
+[4.244s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub

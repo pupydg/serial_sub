@@ -1,0 +1,8 @@
+setup.py
+self_interfaces/__init__.py
+self_interfaces.egg-info/PKG-INFO
+self_interfaces.egg-info/SOURCES.txt
+self_interfaces.egg-info/dependency_links.txt
+self_interfaces.egg-info/top_level.txt
+self_interfaces/msg/__init__.py
+self_interfaces/msg/_speed_control.py

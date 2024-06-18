@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/serial_test.dir/src/serial_test.cpp.o: in function `main':
+serial_test.cpp:(.text+0xb2): undefined reference to `serial::Serial::Serial(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned int, serial::Timeout, serial::bytesize_t, serial::parity_t, serial::stopbits_t, serial::flowcontrol_t)'
+/usr/bin/ld: serial_test.cpp:(.text+0xc7): undefined reference to `serial::Serial::~Serial()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/serial_test.dir/build.make:151：serial_test] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/serial_test.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

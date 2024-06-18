@@ -1,0 +1,16 @@
+/home/tux/ros2_ws/install/serial_test/lib/serial_test/serial_test
+/home/tux/ros2_ws/install/serial_test/share/ament_index/resource_index/package_run_dependencies/serial_test
+/home/tux/ros2_ws/install/serial_test/share/ament_index/resource_index/parent_prefix_path/serial_test
+/home/tux/ros2_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.sh
+/home/tux/ros2_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.dsv
+/home/tux/ros2_ws/install/serial_test/share/serial_test/environment/path.sh
+/home/tux/ros2_ws/install/serial_test/share/serial_test/environment/path.dsv
+/home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.bash
+/home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.sh
+/home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.zsh
+/home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.dsv
+/home/tux/ros2_ws/install/serial_test/share/serial_test/package.dsv
+/home/tux/ros2_ws/install/serial_test/share/ament_index/resource_index/packages/serial_test
+/home/tux/ros2_ws/install/serial_test/share/serial_test/cmake/serial_testConfig.cmake
+/home/tux/ros2_ws/install/serial_test/share/serial_test/cmake/serial_testConfig-version.cmake
+/home/tux/ros2_ws/install/serial_test/share/serial_test/package.xml

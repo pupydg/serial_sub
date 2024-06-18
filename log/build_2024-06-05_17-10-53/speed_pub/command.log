@@ -1,0 +1,2 @@
+Invoking command in '/home/tux/ros2_ws/build/speed_pub': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/self_interfaces:/home/tux/ros2_ws/install/speed_pub:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '2': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/self_interfaces:/home/tux/ros2_ws/install/speed_pub:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12

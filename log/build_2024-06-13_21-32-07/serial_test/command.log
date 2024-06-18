@@ -1,0 +1,2 @@
+Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12

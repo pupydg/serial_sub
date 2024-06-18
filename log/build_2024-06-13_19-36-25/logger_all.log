@@ -1,0 +1,348 @@
+[0.094s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.094s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x714fe05c3ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x714fe074c7f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x714fe074c7f0>>)
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.238s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tux/ros2_ws'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extensions ['ros']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/self_interfaces) by extension 'ros'
+[0.252s] DEBUG:colcon.colcon_core.package_identification:Package 'src/self_interfaces' with type 'ros.ament_cmake' and name 'self_interfaces'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_test) by extension 'ros'
+[0.253s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_test' with type 'ros.ament_cmake' and name 'serial_test'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extensions ['colcon_meta']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extension 'colcon_meta'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extensions ['ros']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_control) by extension 'ros'
+[0.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/speed_control' with type 'ros.ament_cmake' and name 'speed_control'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extension 'ignore_ament_install'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extensions ['colcon_pkg']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extension 'colcon_pkg'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/speed_pub) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'src/speed_pub' with type 'ros.ament_cmake' and name 'speed_pub'
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.274s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.316s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'self_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'self_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tux/ros2_ws/build/self_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tux/ros2_ws/install/self_interfaces', 'merge_install': False, 'path': '/home/tux/ros2_ws/src/self_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'cmake_target' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] Level 5:colcon.colcon_core.verb:set package 'serial_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] DEBUG:colcon.colcon_core.verb:Building package 'serial_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tux/ros2_ws/build/serial_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tux/ros2_ws/install/serial_test', 'merge_install': False, 'path': '/home/tux/ros2_ws/src/serial_test', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'speed_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tux/ros2_ws/build/speed_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tux/ros2_ws/install/speed_control', 'merge_install': False, 'path': '/home/tux/ros2_ws/src/speed_control', 'symlink_install': False, 'test_result_base': None}
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'cmake_target' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] Level 5:colcon.colcon_core.verb:set package 'speed_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] DEBUG:colcon.colcon_core.verb:Building package 'speed_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tux/ros2_ws/build/speed_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tux/ros2_ws/install/speed_pub', 'merge_install': False, 'path': '/home/tux/ros2_ws/src/speed_pub', 'symlink_install': False, 'test_result_base': None}
+[0.318s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tux/ros2_ws/src/speed_control' with build type 'ament_cmake'
+[0.320s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tux/ros2_ws/src/speed_control'
+[0.322s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.325s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tux/ros2_ws/src/self_interfaces' with build type 'ament_cmake'
+[0.325s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tux/ros2_ws/src/self_interfaces'
+[0.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.328s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tux/ros2_ws/src/serial_test' with build type 'ament_cmake'
+[0.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tux/ros2_ws/src/serial_test'
+[0.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/speed_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_control -- -j12 -l12
+[0.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/self_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/self_interfaces -- -j12 -l12
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/speed_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_control -- -j12 -l12
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/self_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/self_interfaces -- -j12 -l12
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/speed_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_control
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/self_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/self_interfaces
+[0.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speed_control)
+[0.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/speed_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_control
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control' for CMake module files
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control' for CMake config files
+[0.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('speed_control', 'cmake_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/cmake_prefix_path.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/cmake_prefix_path.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/cmake_prefix_path.sh'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/lib'
+[0.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('speed_control', 'ld_library_path_lib')
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/ld_library_path_lib.ps1'
+[0.894s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/ld_library_path_lib.dsv'
+[0.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/ld_library_path_lib.sh'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/bin'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/lib/pkgconfig/speed_control.pc'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/lib/python3.10/site-packages'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/bin'
+[0.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.ps1'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.dsv'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.sh'
+[0.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.bash'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.zsh'
+[0.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/speed_control/share/colcon-core/packages/speed_control)
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(self_interfaces)
+[0.914s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces' for CMake module files
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/self_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/self_interfaces
+[0.916s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces' for CMake config files
+[0.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_interfaces', 'cmake_prefix_path')
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/cmake_prefix_path.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/cmake_prefix_path.dsv'
+[0.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/cmake_prefix_path.sh'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/lib'
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_interfaces', 'ld_library_path_lib')
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/ld_library_path_lib.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/ld_library_path_lib.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/ld_library_path_lib.sh'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/bin'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/lib/pkgconfig/self_interfaces.pc'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/lib/python3.10/site-packages'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/bin'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.ps1'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.dsv'
+[0.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.sh'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.bash'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.zsh'
+[0.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/self_interfaces/share/colcon-core/packages/self_interfaces)
+[0.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speed_control)
+[0.979s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control' for CMake module files
+[0.980s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control' for CMake config files
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('speed_control', 'cmake_prefix_path')
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/cmake_prefix_path.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/cmake_prefix_path.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/cmake_prefix_path.sh'
+[0.983s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/lib'
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('speed_control', 'ld_library_path_lib')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/ld_library_path_lib.ps1'
+[0.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/ld_library_path_lib.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_control/share/speed_control/hook/ld_library_path_lib.sh'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/bin'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/lib/pkgconfig/speed_control.pc'
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/lib/python3.10/site-packages'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_control/bin'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.sh'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.bash'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_control/share/speed_control/package.zsh'
+[0.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/speed_control/share/colcon-core/packages/speed_control)
+[0.992s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tux/ros2_ws/src/speed_pub' with build type 'ament_cmake'
+[0.992s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tux/ros2_ws/src/speed_pub'
+[0.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(self_interfaces)
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces' for CMake module files
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces' for CMake config files
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_interfaces', 'cmake_prefix_path')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/cmake_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/cmake_prefix_path.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/cmake_prefix_path.sh'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/lib'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('self_interfaces', 'ld_library_path_lib')
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/ld_library_path_lib.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/ld_library_path_lib.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/hook/ld_library_path_lib.sh'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/bin'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/lib/pkgconfig/self_interfaces.pc'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/lib/python3.10/site-packages'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/self_interfaces/bin'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.ps1'
+[1.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.sh'
+[1.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.bash'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.zsh'
+[1.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/self_interfaces/share/colcon-core/packages/self_interfaces)
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/speed_pub': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[1.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/speed_pub': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub
+[1.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speed_pub)
+[1.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': AMENT_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/opt/ros/humble LD_LIBRARY_PATH=/home/tux/ros2_ws/install/speed_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tux/ros2_ws/install/speed_control/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub' for CMake module files
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub' for CMake config files
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('speed_pub', 'cmake_prefix_path')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/hook/cmake_prefix_path.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/hook/cmake_prefix_path.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/hook/cmake_prefix_path.sh'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/lib'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/bin'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/lib/pkgconfig/speed_pub.pc'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/lib/python3.10/site-packages'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/bin'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.bash'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/speed_pub/share/colcon-core/packages/speed_pub)
+[1.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(speed_pub)
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub' for CMake module files
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub' for CMake config files
+[1.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('speed_pub', 'cmake_prefix_path')
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/hook/cmake_prefix_path.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/hook/cmake_prefix_path.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/lib'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/bin'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/lib/pkgconfig/speed_pub.pc'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/lib/python3.10/site-packages'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/speed_pub/bin'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.ps1'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.sh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.bash'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.zsh'
+[1.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/speed_pub/share/colcon-core/packages/speed_pub)
+[3.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[3.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/serial_test
+[3.369s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_test)
+[3.370s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test' for CMake module files
+[3.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/serial_test
+[3.370s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test' for CMake config files
+[3.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_test', 'cmake_prefix_path')
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/serial_test/share/serial_test/hook/cmake_prefix_path.ps1'
+[3.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/serial_test/share/serial_test/hook/cmake_prefix_path.dsv'
+[3.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/serial_test/share/serial_test/hook/cmake_prefix_path.sh'
+[3.372s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/lib'
+[3.372s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/bin'
+[3.372s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/lib/pkgconfig/serial_test.pc'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/lib/python3.10/site-packages'
+[3.373s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/bin'
+[3.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.ps1'
+[3.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.dsv'
+[3.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.sh'
+[3.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.bash'
+[3.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.zsh'
+[3.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/serial_test/share/colcon-core/packages/serial_test)
+[3.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_test)
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test' for CMake module files
+[3.401s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test' for CMake config files
+[3.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_test', 'cmake_prefix_path')
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/serial_test/share/serial_test/hook/cmake_prefix_path.ps1'
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tux/ros2_ws/install/serial_test/share/serial_test/hook/cmake_prefix_path.dsv'
+[3.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tux/ros2_ws/install/serial_test/share/serial_test/hook/cmake_prefix_path.sh'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/lib'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/bin'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/lib/pkgconfig/serial_test.pc'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/lib/python3.10/site-packages'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/tux/ros2_ws/install/serial_test/bin'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.ps1'
+[3.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.dsv'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.sh'
+[3.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.bash'
+[3.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/tux/ros2_ws/install/serial_test/share/serial_test/package.zsh'
+[3.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tux/ros2_ws/install/serial_test/share/colcon-core/packages/serial_test)
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.407s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.412s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.421s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.421s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tux/ros2_ws/install/local_setup.ps1'
+[3.422s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tux/ros2_ws/install/_local_setup_util_ps1.py'
+[3.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tux/ros2_ws/install/setup.ps1'
+[3.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tux/ros2_ws/install/local_setup.sh'
+[3.426s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tux/ros2_ws/install/_local_setup_util_sh.py'
+[3.427s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tux/ros2_ws/install/setup.sh'
+[3.428s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tux/ros2_ws/install/local_setup.bash'
+[3.429s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tux/ros2_ws/install/setup.bash'
+[3.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tux/ros2_ws/install/local_setup.zsh'
+[3.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tux/ros2_ws/install/setup.zsh'

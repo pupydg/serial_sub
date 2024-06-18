@@ -1,0 +1,6 @@
+{
+  "package_name": "speed_control",
+  "non_idl_tuples": [
+    "/home/tux/ros2_ws/src/speed_control:msg/SpeedControl.msg"
+  ]
+}

@@ -1,0 +1,16 @@
+/home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher
+/home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/package_run_dependencies/speed_pub
+/home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/parent_prefix_path/speed_pub
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.sh
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.dsv
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.sh
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.dsv
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.bash
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.sh
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.zsh
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.dsv
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.dsv
+/home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/packages/speed_pub
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig.cmake
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig-version.cmake
+/home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.xml

@@ -1,0 +1,142 @@
+[0.014s] Invoking command in '/home/tux/ros2_ws/build/self_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/self_interfaces -- -j12 -l12
+[0.102s] [  3%] Built target self_interfaces__cpp
+[0.102s] [ 12%] Built target self_interfaces__rosidl_generator_c
+[0.140s] [ 12%] Built target ament_cmake_python_copy_self_interfaces
+[0.174s] [ 22%] Built target self_interfaces__rosidl_typesupport_cpp
+[0.176s] [ 32%] Built target self_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.178s] [ 41%] Built target self_interfaces__rosidl_typesupport_introspection_cpp
+[0.193s] [ 51%] Built target self_interfaces__rosidl_typesupport_introspection_c
+[0.195s] [ 61%] Built target self_interfaces__rosidl_typesupport_fastrtps_c
+[0.196s] [ 70%] Built target self_interfaces__rosidl_typesupport_c
+[0.226s] [ 70%] Built target self_interfaces
+[0.264s] [ 74%] Built target self_interfaces__py
+[0.309s] [ 80%] Built target self_interfaces__rosidl_generator_py
+[0.354s] [ 87%] Built target self_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.359s] [ 93%] Built target self_interfaces__rosidl_typesupport_c__pyext
+[0.362s] [100%] Built target self_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.555s] running egg_info
+[0.556s] writing self_interfaces.egg-info/PKG-INFO
+[0.557s] writing dependency_links to self_interfaces.egg-info/dependency_links.txt
+[0.557s] writing top-level names to self_interfaces.egg-info/top_level.txt
+[0.560s] reading manifest file 'self_interfaces.egg-info/SOURCES.txt'
+[0.561s] writing manifest file 'self_interfaces.egg-info/SOURCES.txt'
+[0.602s] [100%] Built target ament_cmake_python_build_self_interfaces_egg
+[0.619s] Invoked command in '/home/tux/ros2_ws/build/self_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/self_interfaces -- -j12 -l12
+[0.706s] Invoking command in '/home/tux/ros2_ws/build/self_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/self_interfaces
+[0.760s] -- Install configuration: ""
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/ament_index/resource_index/rosidl_interfaces/self_interfaces
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/speed_control.h
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__type_support.h
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__struct.h
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__functions.c
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__functions.h
+[0.781s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.812s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/library_path.sh
+[0.812s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/library_path.dsv
+[0.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_generator_c.so
+[0.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces
+[0.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg
+[0.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail
+[0.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__rosidl_typesupport_fastrtps_c.h
+[1.006s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.006s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces
+[1.007s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg
+[1.007s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail
+[1.007s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__type_support.c
+[1.007s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__rosidl_typesupport_introspection_c.h
+[1.007s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.070s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_typesupport_introspection_c.so
+[1.092s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_typesupport_c.so
+[1.093s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces
+[1.093s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg
+[1.093s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/speed_control.hpp
+[1.093s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail
+[1.093s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__struct.hpp
+[1.093s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__traits.hpp
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__builder.hpp
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/dds_fastrtps
+[1.094s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.123s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.123s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces
+[1.123s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg
+[1.123s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail
+[1.123s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__rosidl_typesupport_introspection_cpp.hpp
+[1.123s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/include/self_interfaces/self_interfaces/msg/detail/speed_control__type_support.cpp
+[1.154s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.187s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_typesupport_cpp.so
+[1.188s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/pythonpath.sh
+[1.189s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/pythonpath.dsv
+[1.190s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces-0.0.0-py3.10.egg-info
+[1.190s] -- Installing: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.191s] -- Installing: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.191s] -- Installing: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.192s] -- Installing: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.193s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces
+[1.208s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/_self_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.208s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/__init__.py
+[1.209s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/_self_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.209s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/msg
+[1.210s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/msg/__init__.py
+[1.211s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/msg/_speed_control.py
+[1.211s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/msg/_speed_control_s.c
+[1.211s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/_self_interfaces_s.ep.rosidl_typesupport_c.c
+[1.212s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/self_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.212s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/self_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.212s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/libself_interfaces__rosidl_generator_py.so
+[1.213s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/self_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.334s] Listing '/home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces'...
+[1.335s] Listing '/home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/msg'...
+[1.376s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/self_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.418s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/self_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.459s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/local/lib/python3.10/dist-packages/self_interfaces/self_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.480s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/lib/libself_interfaces__rosidl_generator_py.so
+[1.500s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/msg/SpeedControl.idl
+[1.500s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/msg/SpeedControl.msg
+[1.501s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/ament_index/resource_index/package_run_dependencies/self_interfaces
+[1.522s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/ament_index/resource_index/parent_prefix_path/self_interfaces
+[1.522s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/ament_prefix_path.sh
+[1.522s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/ament_prefix_path.dsv
+[1.522s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/path.sh
+[1.522s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/environment/path.dsv
+[1.522s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/local_setup.bash
+[1.523s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/local_setup.sh
+[1.523s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/local_setup.zsh
+[1.523s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/local_setup.dsv
+[1.523s] -- Installing: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.dsv
+[1.543s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/ament_index/resource_index/packages/self_interfaces
+[1.688s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_generator_cExport.cmake
+[1.688s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.731s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.731s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.773s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.773s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.815s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_cExport.cmake
+[1.815s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.856s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_generator_cppExport.cmake
+[1.898s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.898s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.930s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.930s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.951s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_cppExport.cmake
+[1.951s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_generator_pyExport.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/export_self_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.983s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.984s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.984s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.984s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfacesConfig.cmake
+[1.984s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/cmake/self_interfacesConfig-version.cmake
+[1.984s] -- Up-to-date: /home/tux/ros2_ws/install/self_interfaces/share/self_interfaces/package.xml
+[2.903s] Invoked command in '/home/tux/ros2_ws/build/self_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/self_interfaces

@@ -1,0 +1,6 @@
+Invoking command in '/home/tux/ros2_ws/build/speed_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tux/ros2_ws/src/speed_control -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/speed_control
+Invoked command in '/home/tux/ros2_ws/build/speed_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tux/ros2_ws/src/speed_control -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/speed_control
+Invoking command in '/home/tux/ros2_ws/build/speed_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_control -- -j12 -l12
+Invoked command in '/home/tux/ros2_ws/build/speed_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_control -- -j12 -l12
+Invoking command in '/home/tux/ros2_ws/build/speed_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_control
+Invoked command in '/home/tux/ros2_ws/build/speed_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_control

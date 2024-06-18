@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target speed_publisher[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/speed_publisher.dir/src/speed_publisher.cpp.o[0m
+[2.246s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.246s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.247s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.247s]                  from [01m[K/home/tux/ros2_ws/src/speed_pub/src/speed_publisher.cpp:6[m[K:
+[2.247s] [01m[K/home/tux/ros2_ws/src/speed_pub/src/speed_publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.247s] [01m[K/home/tux/ros2_ws/src/speed_pub/src/speed_publisher.cpp:33:30:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.247s]    33 |     RCLCPP_INFO(get_logger(),[01;35m[K"left : %d"[m[K,[32m[Kmessage.left[m[K);
+[2.247s]       |                              [01;35m[K^~~~~~~~~~~[m[K [32m[K~~~~~~~~~~~~[m[K
+[2.247s]       |                                                  [32m[K|[m[K
+[2.247s]       |                                                  [32m[Kdouble[m[K
+[2.247s] [01m[K/home/tux/ros2_ws/src/speed_pub/src/speed_publisher.cpp:33:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.247s]    33 |     RCLCPP_INFO(get_logger(),"left : [01;36m[K%d[m[K",message.left);
+[2.247s]       |                                      [01;36m[K~^[m[K
+[2.247s]       |                                       [01;36m[K|[m[K
+[2.247s]       |                                       [01;36m[Kint[m[K
+[2.247s]       |                                      [32m[K%f[m[K
+[4.074s] [100%] [32m[1mLinking CXX executable speed_publisher[0m
+[4.253s] [100%] Built target speed_publisher
+[4.266s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/speed_pub -- -j12 -l12
+[4.293s] Invoking command in '/home/tux/ros2_ws/build/speed_pub': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub
+[4.301s] -- Install configuration: ""
+[4.301s] -- Installing: /home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher
+[4.303s] -- Set runtime path of "/home/tux/ros2_ws/install/speed_pub/lib/speed_pub/speed_publisher" to ""
+[4.303s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/package_run_dependencies/speed_pub
+[4.303s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/parent_prefix_path/speed_pub
+[4.303s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.sh
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/ament_prefix_path.dsv
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.sh
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/environment/path.dsv
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.bash
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.sh
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.zsh
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/local_setup.dsv
+[4.304s] -- Installing: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.dsv
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/ament_index/resource_index/packages/speed_pub
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig.cmake
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/cmake/speed_pubConfig-version.cmake
+[4.304s] -- Up-to-date: /home/tux/ros2_ws/install/speed_pub/share/speed_pub/package.xml
+[4.307s] Invoked command in '/home/tux/ros2_ws/build/speed_pub' returned '0': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/speed_pub

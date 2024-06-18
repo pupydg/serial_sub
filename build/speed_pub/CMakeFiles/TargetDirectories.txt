@@ -1,0 +1,10 @@
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/uninstall.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/speed_pub_uninstall.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/speed_publisher.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/test.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/edit_cache.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/rebuild_cache.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/list_install_components.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/install.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/install/local.dir
+/home/tux/ros2_ws/build/speed_pub/CMakeFiles/install/strip.dir

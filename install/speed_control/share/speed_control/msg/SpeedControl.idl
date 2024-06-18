@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from speed_control/msg/SpeedControl.msg
+// generated code does not contain a copyright notice
+
+
+module speed_control {
+  module msg {
+    struct SpeedControl {
+      float left;
+
+      float right;
+    };
+  };
+};

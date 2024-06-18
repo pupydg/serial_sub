@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target serial_test[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_test.dir/src/serial_test.cpp.o[0m
+[8.208s] [100%] [32m[1mLinking CXX executable serial_test[0m
+[8.651s] [100%] Built target serial_test
+[8.660s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --build /home/tux/ros2_ws/build/serial_test -- -j12 -l12
+[8.688s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/serial_test
+[8.696s] -- Install configuration: ""
+[8.696s] -- Installing: /home/tux/ros2_ws/install/serial_test/lib/serial_test/serial_test
+[8.701s] -- Set runtime path of "/home/tux/ros2_ws/install/serial_test/lib/serial_test/serial_test" to ""
+[8.701s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/ament_index/resource_index/package_run_dependencies/serial_test
+[8.701s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/ament_index/resource_index/parent_prefix_path/serial_test
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.sh
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/environment/ament_prefix_path.dsv
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/environment/path.sh
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/environment/path.dsv
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.bash
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.sh
+[8.702s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.zsh
+[8.703s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/local_setup.dsv
+[8.703s] -- Installing: /home/tux/ros2_ws/install/serial_test/share/serial_test/package.dsv
+[8.703s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/ament_index/resource_index/packages/serial_test
+[8.703s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/cmake/serial_testConfig.cmake
+[8.705s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/cmake/serial_testConfig-version.cmake
+[8.705s] -- Up-to-date: /home/tux/ros2_ws/install/serial_test/share/serial_test/package.xml
+[8.705s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '0': CMAKE_PREFIX_PATH=/home/tux/ros2_ws/install/speed_control:/home/tux/ros2_ws/install/speed_pub:/home/tux/ros2_ws/install/serial_test:/home/tux/ros2_ws/install/self_interfaces:/opt/ros/humble /usr/bin/cmake --install /home/tux/ros2_ws/build/serial_test

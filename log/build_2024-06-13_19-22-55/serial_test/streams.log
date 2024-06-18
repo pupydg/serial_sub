@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/tux/ros2_ws/build/serial_test': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tux/ros2_ws/src/serial_test -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/serial_test
+[0.031s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.193s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.260s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.260s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.260s]   before
+[0.260s] Call Stack (most recent call first):
+[0.260s]   CMakeLists.txt:27 (ament_target_dependencies)
+[0.260s] 
+[0.260s] [0m
+[0.261s] -- Configuring incomplete, errors occurred!
+[0.261s] See also "/home/tux/ros2_ws/build/serial_test/CMakeFiles/CMakeOutput.log".
+[0.263s] Invoked command in '/home/tux/ros2_ws/build/serial_test' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tux/ros2_ws/src/serial_test -DCMAKE_INSTALL_PREFIX=/home/tux/ros2_ws/install/serial_test
